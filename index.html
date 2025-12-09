@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Febiola Hutagalung" />
+  <title>Portofolio | Febiola Hutagalung</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===================================
+       NAVBAR
+  =================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo"><span>Febiola</span> Hutagalung</a>
+
+      <nav class="nav">
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button
+          class="dark-toggle"
+          id="darkToggle"
+          aria-label="Toggle dark mode"
+        >
+          🌙
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================
+         HERO
+    =================================== -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text fade-in">
+          <p class="hero-tag">🌷Looking for Real-World Experience</p>
+          <!-- GANTI NAMA & ROLE DI SINI -->
+          <h1>FEBIOLA ALYA HUTAGALUNG</h1>
+          <h2>Information Technology Student</h2>
+          <p class="hero-desc">
+             An Information Technology student who is passionate about software engineer,
+UI/UX, and human-centered digital product development. Enjoys learning
+new technologies and contributing to teams.
+          </p>
+
+          <div class="hero-actions">
+            <!-- GANTI FILE CV DI SINI -->
+            <a
+              href="assets/cv.pdf"
+              class="btn primary"
+              aria-label="Download CV"
+              download
+            >
+              Lihat Resume Saya >
+            </a>
+            <a
+              href="#contact"
+              class="btn ghost"
+              aria-label="Contact Me"
+            >
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-small-info">
+            <span>Based in Indonesia • Eager to Learn and Contribute</span>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper fade-in">
+          <!-- GANTI FOTO PROFIL DI SINI -->
+          <div class="hero-image-card">
+            <img
+              src="assets/profile.jpg"
+              alt="Foto profil Aku"
+              class="hero-image"
+            />
+            <div class="hero-badge hero-badge-1">
+              <span>💻</span> Future Software Engineer
+            </div>
+            <div class="hero-badge hero-badge-2">
+              <span>⭐</span> UI/UX Curious
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================
+         ABOUT
+    =================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          Sedikit cerita tentang latar belakang dan fokus belajarku.
+        </p>
+
+        <div class="about-grid fade-in">
+          <div class="about-text">
+            <!-- EDIT DESKRIPSI DI SINI -->
+            <p>
+  Halo! Saya mahasiswa <strong>Teknologi Informasi</strong> dengan minat pada 
+  <strong>Software Engineering</strong> dan <strong>UI/UX Design</strong>. 
+  Saya menikmati proses merancang, membangun, dan mengoptimalkan antarmuka 
+  yang fungsional serta user-friendly.
+</p>
+<p>
+  Saat ini saya mencari pengalaman 
+  <strong>magang</strong> atau <strong>entry-level position</strong> 
+  di bidang software development atau frontend engineering untuk 
+  memperdalam kemampuan teknis dan berkontribusi dalam pengembangan produk.
+</p>
+          </div>
+
+          <div class="about-cards">
+            <!-- CARD MINI -->
+            <div class="about-card">
+              <h3>Umur</h3>
+              <p>20 tahun</p>
+            </div>
+            <div class="about-card">
+              <h3>Kampus</h3>
+              <p>Institut Teknologi DEL</p>
+            </div>
+            <div class="about-card">
+              <h3>Fokus Belajar</h3>
+              <p>Frontend Development, UI/UX Design, Backend Basics, Database</p>
+            </div>
+            <div class="about-card">
+              <h3>Minat Teknologi</h3>
+              <p>HTML, CSS, JavaScript, PHP (Laravel), Java (Basic), SQL, MySQL, Wireframe, Prototype</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title">Skills &amp; Technologies</h2>
+    <p class="section-subtitle">
+      Teknologi yang sering saya gunakan dalam pengembangan software dan desain antarmuka.
+    </p>
+
+    <div class="skills-grid fade-in">
+      <!-- Row 1 -->
+      <div class="skill-card">
+        <img src="assets/icons/html.svg" alt="HTML icon" class="skill-icon">
+        <p class="skill-name">HTML</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/css.svg" alt="CSS icon" class="skill-icon">
+        <p class="skill-name">CSS</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/js.svg" alt="JavaScript icon" class="skill-icon">
+        <p class="skill-name">JavaScript</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/sql.svg" alt="SQL icon" class="skill-icon">
+        <p class="skill-name">SQL / MySQL</p>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="skill-card">
+        <img src="assets/icons/python.svg" alt="Python icon" class="skill-icon">
+        <p class="skill-name">Python</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/java.svg" alt="Java icon" class="skill-icon">
+        <p class="skill-name">Java</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/laravel.svg" alt="Laravel icon" class="skill-icon">
+        <p class="skill-name">Laravel</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/github.svg" alt="GitHub icon" class="skill-icon">
+        <p class="skill-name">Git &amp; GitHub</p>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="skill-card">
+        <img src="assets/icons/figma.svg" alt="Figma icon" class="skill-icon">
+        <p class="skill-name">Figma (UI/UX)</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/php.svg" alt="PHP icon" class="skill-icon">
+        <p class="skill-name">PHP</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/vscode.svg" alt="VS Code icon" class="skill-icon">
+        <p class="skill-name">Vscode</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="assets/icons/postman.svg" alt="Postman icon" class="skill-icon">
+        <p class="skill-name">Postman</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Project-->
+   <section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">
+      Ringkasan singkat project yang pernah saya kerjakan.
+    </p>
+
+    <div class="projects-grid fade-in">
+
+      <!-- PROJECT 1: Dentalogic8 -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="assets/projects/dentalogic8.jpg" alt="Dentalogic8 app mockup">
+        </div>
+        <div class="project-body">
+          <div class="project-tag">Mobile App · AI</div>
+          <h3>Dentalogic8</h3>
+          <p class="project-meta">UI/UX, Data Analyst • 08/2025 – Present</p>
+          <p>
+            Aplikasi mobile untuk mendeteksi karies gigi dan memberi rekomendasi treatment bagi pengguna underserved.
+          </p>
+          <p class="project-tech">
+            Tech stack: React Native, YOLOv12, Python, Optuna, GitHub
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 2: PUSMASIB -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="assets/projects/pusmasib.jpg" alt="PUSMASIB health platform">
+        </div>
+        <div class="project-body">
+          <div class="project-tag">Mobile &amp; Web App</div>
+          <h3>PUSMASIB Health Service Platform</h3>
+          <p class="project-meta">Developer, UI/UX • 02/2025 – 07/2025</p>
+          <p>
+            Platform layanan kesehatan untuk mempermudah pasien dan admin Puskesmas mengelola layanan dan data.
+          </p>
+          <p class="project-tech">
+            Tech stack: Flutter (Dart), Laravel (PHP), Blade, SQL, GitHub
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 3: HKBP Sabungan -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="assets/projects/hkbp-sabungan.jpg" alt="HKBP Sabungan information system">
+        </div>
+        <div class="project-body">
+          <div class="project-tag">Web App</div>
+          <h3>HKBP Sabungan Information System</h3>
+          <p class="project-meta">Frontend Developer, Data Analyst • 02/2024 – 07/2024</p>
+          <p>
+            Sistem informasi gereja untuk mengelola data jemaat, kegiatan, dan informasi pelayanan.
+          </p>
+          <p class="project-tech">
+            Tech stack: Laravel, PHP, SQL, JavaScript, Blade, CSS/SCSS, GitHub
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 4: Rumah Kreatif Toba UI/UX -->
+<article class="project-card">
+  <div class="project-image">
+    <img src="assets/projects/rumah-kreatif-toba.jpg" alt="UI/UX Redesign Rumah Kreatif Toba">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">UI/UX · UX Research</div>
+    <h3>Evaluasi &amp; Redesign UI/UX “Rumah Kreatif Toba”</h3>
+    <p class="project-meta">Mini Project • 10/2024 – 12/2024</p>
+    <p>
+      Redesign UI/UX e-marketplace Rumah Kreatif Toba untuk alur belanja yang lebih jelas dan nyaman.
+    </p>
+    <p class="project-tech">
+      Tech stack: Figma, UX Research, Heuristic Evaluation, SUS
+    </p>
+  </div>
+</article>
+
+
+
+      <!-- PROJECT 5: Grade Calculator (GATOR) -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="assets/projects/gator.jpg" alt="Grade Calculator (GATOR)">
+        </div>
+        <div class="project-body">
+          <div class="project-tag">Utility App</div>
+          <h3>Grade Calculator (GATOR)</h3>
+          <p class="project-meta">Developer, UI/UX • 06/2025 – 07/2025</p>
+          <p>
+            Aplikasi untuk membantu mahasiswa IT Del memprediksi dan memonitor nilai mata kuliah.
+          </p>
+          <p class="project-tech">
+            
+          </p>
+        </div>
+      </article>
+
+      <!--pROJECT 6-->
+      <article class="project-card">
+  <div class="project-image">
+    <img src="assets/projects/deepfake.jpg" alt="Deepfake Detector Web App">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">AI · Web App</div>
+    <h3>Deepfake Detector Web App</h3>
+    <p class="project-meta">Machine Learning • 2025</p>
+    <p>
+      Web app untuk mendeteksi gambar deepfake menggunakan model ResNet-18 dan visualisasi heatmap Grad-CAM.
+    </p>
+    <p class="project-tech">
+      Tech stack: Python, PyTorch, ResNet-18, Grad-CAM, Streamlit
+    </p>
+  </div>
+</article>
+
+
+    </div>
+  </div>
+</section>
+
+  <!-- ===================================
+     EXPERIENCE
+=================================== -->
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title">Organization &amp; Experience</h2>
+    <p class="section-subtitle">
+      Pengalaman organisasi, kepanitiaan, dan peran akademik yang pernah saya jalani.
+    </p>
+
+    <div class="timeline fade-in">
+      <!-- ITEM 1 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025 – Present</span>
+          <h3>Member of Publications Division</h3>
+          <p class="timeline-org">DEPKOMINFO – BEM IT Del</p>
+          <p class="timeline-desc">
+            Mengelola penyebaran informasi kampus dan media sosial BEM IT Del:
+            merencanakan konten, menulis caption, dan menjadwalkan publikasi agar
+            informasi tetap akurat dan mudah diakses.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">Sep 2024 – Dec 2024</span>
+          <h3>Assistant Lecturer – English II</h3>
+          <p class="timeline-org">Institut Teknologi Del</p>
+          <p class="timeline-desc">
+            Membantu proses pembelajaran 59 mahasiswa, menjelaskan materi grammar,
+            menjawab pertanyaan, serta mengoreksi tugas dan kuis.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">Jun 2025 – Jul 2025</span>
+          <h3>Apple Foundation Program Participant</h3>
+          <p class="timeline-org">Infinite Learning x Apple Developer Academy — Batam</p>
+          <p class="timeline-desc">
+            Mengembangkan solusi berbasis teknologi dengan pendekatan design thinking,
+            menyusun alur aplikasi, logika, dan prototype antarmuka menggunakan Swift.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2022 – 2023</span>
+          <h3>Head of Student Council (Ketua OSIS)</h3>
+          <p class="timeline-org">SMAN 1 Siborongborong</p>
+          <p class="timeline-desc">
+            Memimpin OSIS dalam merencanakan dan menjalankan program kerja sekolah
+            serta mengoordinasikan pengurus untuk kegiatan akademik dan non-akademik.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 5 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2024</span>
+          <h3>Committee – Kaderisasi Program 2024</h3>
+          <p class="timeline-org">Institut Teknologi Del</p>
+          <p class="timeline-desc">
+            PIC kelompok, mengoordinasikan anggota dan memastikan rangkaian
+            kegiatan kaderisasi berjalan tertib dan tepat waktu.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 6 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025</span>
+          <h3>Documentation Division – Del Festival 2025</h3>
+          <p class="timeline-org">Institut Teknologi Del</p>
+          <p class="timeline-desc">
+            Mendokumentasikan acara melalui foto dan video serta menyiapkan
+            materi dokumentasi untuk kebutuhan publikasi.
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 7 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025</span>
+          <h3>Publication &amp; Media Committee – IDG (Dies Natalis)</h3>
+          <p class="timeline-org">Institut Teknologi Del</p>
+          <p class="timeline-desc">
+            Menulis dan mempublikasikan berita di del.ac.id serta mendukung peliputan
+            langsung melalui radio dan media sosial bersama tim publikasi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================
+     EDUCATION
+=================================== -->
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <p class="section-subtitle">
+      Riwayat pendidikan formal yang pernah dan sedang ditempuh.
+    </p>
+
+    <div class="education-grid fade-in">
+
+      <!-- IT Del -->
+      <div class="education-card">
+        <span class="edu-year">08/2023 – Present</span>
+        <h3>Information Technology</h3>
+        <p class="edu-campus">Institut Teknologi Del</p>
+        <p class="edu-desc">
+          GPA: <strong>3.37 / 4.00</strong><br>
+          Menempuh pendidikan pada bidang Teknologi Informasi dengan fokus pada
+          pengembangan aplikasi, pemrograman, basis data, dan analisis sistem.
+        </p>
+      </div>
+
+      <!-- SMA -->
+      <div class="education-card">
+        <span class="edu-year">06/2021 – 05/2023</span>
+        <h3>Science Program</h3>
+        <p class="edu-campus">SMA Negeri 1 Siborongborong</p>
+        <p class="edu-desc">
+          Ketua OSIS (Student Body President).<br>
+          Aktif dalam kegiatan akademik dan kepemimpinan selama masa sekolah.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================
+     CONTACT
+=================================== -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-subtitle">
+      Yuk terhubung untuk kolaborasi project, magang, atau sekadar networking manis-manis dulu 🌷
+    </p>
+
+    <div class="contact-grid fade-in">
+      <!-- Info card -->
+      <div class="contact-card contact-info">
+        <h3 class="contact-title">Let’s Work Together ✨</h3>
+        <p class="contact-text">
+          Aku terbuka untuk kesempatan <strong>internship</strong>, <strong>part-time project</strong>,
+          dan <strong>kolaborasi belajar</strong>. Ceritakan kebutuhanmu, nanti kita cari
+          solusi bareng 💌
+        </p>
+
+        <div class="contact-meta">
+          <p><span>📧 Email</span> febialya16@gmail.com</p>
+          <p><span>📍 Preferensi</span> Remote / Hybrid</p>
+        </div>
+
+        <div class="contact-chips">
+          <span class="chip">🌸 Friendly to work with</span>
+          <span class="chip">💻 IT Student</span>
+          <span class="chip">🎀 Detail-oriented</span>
+        </div>
+
+        <p class="contact-note">
+          Lebih nyaman via email atau form di samping ya, saya pasti balas secepat mungkin 💗
+        </p>
+      </div>
+
+      <!-- Form card -->
+      <div class="contact-card contact-form-card">
+        <!-- Form masih dummy, siap dihubungkan ke EmailJS / Netlify -->
+        <form class="contact-form" id="contactForm">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="from_name"              
+      placeholder="Masukkan nama kamu"
+      required
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="from_email"              
+      placeholder="Masukkan email aktif"
+      required
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"               
+      rows="4"
+      placeholder="Ceritakan kebutuhanmu atau posisi yang ingin ditawarkan :)"
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn contact-btn" aria-label="Send Message">
+    💌 Send Message
+  </button>
+
+  <p class="form-hint">
+    Form ini <strong>sudah</strong> terhubung ke EmailJS. Kamu bisa kirim pesan langsung lewat sini 💗
+  </p>
+</form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!--footer-->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>Made with 🐰 & 💗 by <strong>Febiola Hutagalung</strong> — 2025</p>
+    <div class="footer-socials">
+      <a href="https://github.com/febiolahutagalung" target="_blank" rel="noopener" aria-label="GitHub">
+        <img src="assets/icons/github2.svg" alt="GitHub icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/febiola-hutagalung-322aa2331/"
+   target="_blank"
+   rel="noopener"
+   aria-label="LinkedIn">
+  <img src="assets/icons/linkedin.svg" alt="LinkedIn icon" />
+</a>
+
+      <a href="https://www.instagram.com/febii.hutagalung/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="assets/icons/instagram.svg" alt="Instagram icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- Scripts -->
+ <!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init({
+    publicKey: "-AZoeum4O9x1mcw3h", // public key kamu
+  });
+</script>
+
+<!-- Script utama -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
